@@ -1,0 +1,31 @@
+_author__ = 'Naveen'
+import os
+from tkinter import *
+import tkinter.messagebox
+
+PreBanner=Tk()
+PreBanner.title("Pre Banner Transcript Retype")
+PreBanner.geometry('600x600+400+400')
+labeltext= StringVar()
+labeltext.set("FINISH")
+label1=Label(PreBanner,textvariable=labeltext, height=10)
+label1.pack()
+
+checkBoxVal=IntVar()
+checkbox1=Checkbutton(PreBanner,variable=checkBoxVal, text="THEORY OF ACC 1")
+checkbox1.pack()
+checkbox2=Checkbutton(PreBanner,variable=checkBoxVal, text="THEORY OF ACC 2")
+checkbox2.pack()
+checkbox3=Checkbutton(PreBanner,variable=checkBoxVal, text="INTRO TO FIN ACC")
+checkbox3.pack()
+checkbox4=Checkbutton(PreBanner,variable=checkBoxVal, text="THEORY OF ACC 1")
+checkbox4.pack()
+checkbox5=Checkbutton(PreBanner,variable=checkBoxVal, text="THEORY OF ACC 1")
+checkbox5.pack()
+checkbox6=Checkbutton(PreBanner,variable=checkBoxVal, text="THEORY OF ACC 1")
+checkbox6.pack()
+checkbox7=Checkbutton(PreBanner,variable=checkBoxVal, text="THEORY OF ACC 1")
+checkbox7.pack()
+checkbox8=Checkbutton(PreBanner,variable=checkBoxVal, text="THEORY OF ACC 1")
+checkbox8.pack()
+PreBanner.mainloop()
